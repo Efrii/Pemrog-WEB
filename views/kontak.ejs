@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myFeedbackApp">
+    <head>
+        <title>Starbucks</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="asset/apple-icon.png"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-animate.min.js"></script>
+        <script src="js/angular-animate.min.js"></script>
+        <script src="js/controller.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+    <body id="page-top">
+<!------------------------------------Navbar-------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container">
+          <a class="navbar-brand" href="#page-top">
+              <img src="asset/Logo1.png" width="200" height="60">
+            </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="about">About Us</a>
+              <a class="nav-item nav-link" href="team">Team</a>
+              <a class="nav-item nav-link" href="services">Services</a>
+              <a class="nav-item nav-link" href="kontak">Contact Us</a>
+          </div>
+      </div>
+    </div>
+    </nav>
+
+<!------------------------------------Produk Perusahaan-------------------------------------------------------------------------------------->
+<section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title" data-aos="zoom-out">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section-title">
+                      <h2>Contact</h2>
+                      <hr class="">
+                      <p>Contact Us</p>
+                    </div>
+            </div>
+            <div class="col">
+              <h2 class="hilang">Feedback</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+
+        <div class="col-lg-4">
+          <div class="info">
+            <div class="address">
+              <h4>Lokasi:</h4>
+              <p>Sahid Sudirman Center<br>
+                27th Floor, Jl. Jend. Sudirman Kav. 86 </p>
+            </div>
+
+            <div class="email">
+              <h4>Email:</h4>
+              <p>feedback@starbucks.co.id</p>
+            </div>
+
+            <div class="phone">
+              <h4>Telepon:</h4>
+              <p>(+62-21) 8064 8565</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+          <h2 class="muncul">Feedback</h2>
+          <form method="post" action="/submit" class="feedback" name="feedback">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input ng-model="kontak.nama" ng-required="true" type="text" name="nama" class="form-control" id="nama" placeholder="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div ng-show="feedback.nama.$touched && feedback.nama.$invalid">
+                  <small style="color: #007bff; display: block; text-align: center;">Masukkan nama yang valid</small>
+                </div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input ng-model="kontak.email" ng-required="true" type="email" class="form-control" name="email" id="email" placeholder="name@example.com" data-rule="email" data-msg="Please enter a valid email" />
+                <div ng-show="feedback.email.$touched && feedback.email.$invalid">
+                  <small style="color: #007bff; display: block; text-align: center;">Masukkan email yang valid</small>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input ng-model="kontak.jenis" ng-required="true" type="text" class="form-control" name="jenis" id="jenis" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div ng-show="feedback.jenis.$touched && feedback.jenis.$invalid">
+                <small style="color: #007bff; display: block; text-align: center;">Masukkan jenis yang valid</small>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea ng-model="kontak.kritik" ng-required="true" class="form-control" name="kritik" rows="5" data-rule="kritik" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div ng-show="feedback.kritik.$touched && feedback.kritik.$invalid">
+                <small style="color: #007bff; display: block; text-align: center;">Masukkan kritik yang valid</small>
+              </div>
+            </div>
+            <div style="margin-top: 20px;" class="text-center"><button ng-disabled="feedback.$invalid" id="submit" name="submit" class="btn btn-warning">Send Message</button></div>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!----------------------------------------Footer-------------------------------------------------------------------------------------->
+
+  <section id="footer" class="footer">
+  <div class="container name">
+      <div class="col text-center">
+          <h2>Starbucks Indonesia</h2>
+          <p>Starbucks Coffee® Indonesia opened its first store in Plaza Indonesia, 17 May 2002. With a genuine connection, Starbucks Coffee® Indonesia are now in
+      137 different locations all around major cities (11 cities), serving Indonesians one cup at a time.</p>
+  </div>
+
+  <div class="row">
+      <div class="col social-media">
+          <h6>Social Media</h6>
+          <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://www.facebook.com/StarbucksIndonesia/"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/SbuxIndonesia/"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/starbucksindonesia/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      <hr>
+      </div>
+  </div>
+
+  <div class="row">
+  <div class="col text-center copyright">
+      <p>Copyright © 2020. Starbucks Corporation.</p>
+  </div>
+  <hr>
+  </div>
+
+  </section>
+
+<!------------------------------------Javascript-------------------------------------------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.2/dist/sweetalert2.all.min.js"></script>
+    <script src="/js/scripts.js"></script>
+    </body>
+</htm>

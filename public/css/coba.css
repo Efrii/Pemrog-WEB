@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+/*********************Navbar******************/
+.navbar{
+    background-color: #303030;
+}
+
+
+/*********************Jumbotron******************/
+.jumbo{
+    margin-top: 85px;
+    height: 80px;
+}
+
+.jumbo img{
+    width: 100%;
+}
+
+.jumboo{
+    margin-top: 85px;
+    height: 60px;
+}
+
+.jumboo img{
+    width: 100%;
+}
+
+
+/*********************Slider******************/
+.carousel-item{
+    padding-top: 80px;
+    height: 300px;
+}
+
+
+.carousel-caption h1{
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p{
+    font-size: 25px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption span{
+    font-weight: bold;
+}
+
+.carousel-item hr{
+    border-color: #FFBC00;
+    width: 70px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.carousel-item .btn{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+/*********************Tentang Perusahaan******************/
+.kami h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 25px;
+    }
+
+.kami hr{
+    margin-top: 15px;
+    border-color: #FFBC00;
+    width: 100px;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.tentang{
+    margin-top: 50px;
+}
+
+.tentang p{
+    font-size: 15px;
+    font-weight: 200px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tentang h5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aku p{
+    margin-top: 10px;
+}
+
+/*********************Produk******************/
+.new{
+    margin-top: 50px;
+    background: #FFD203;
+}
+
+.newa{
+    margin-top: 80px;
+    background: #FFD203;
+}
+
+
+.tea h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tea hr{
+    margin-top: 25px;
+    border-color: white;
+    width: 100px;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.newproduk h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.newproduk p{
+    text-align: center;
+    font-size: 15px;
+}
+
+/*********************Quotes******************/
+.view{
+    margin-top: 50px;
+}
+
+.review img{
+    margin-top: 50px;
+    border-radius: 250px;
+    }
+
+    .review h5{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .review p{
+        text-align: center;
+        columns: #2a2a2a;
+        font-size: 15px;
+    }
+
+/*********************Galeri******************/
+.galeri{
+    margin-top: 50px;
+  }
+
+  .gallery {
+      column-count: 3;
+      column-width: 33%; }
+
+  .gallery .pics {
+      transition: all 350ms ease; }
+
+  .gallery .animation {
+      transform: scale(1); }
+
+
+
+/*********************Team******************/
+
+.team {
+    padding-top: 50px;
+  }
+
+  .team h2{
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .team p{
+    text-align: center;
+  }
+
+ .anggota{
+   padding-top: 10px;
+ }
+
+  .team hr{
+    border-color: #FFBC00;
+    width: 150px;
+    border-width: 5px;
+    border-radius: 5px;
+  }
+
+  .team .member {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .team .member .member-img {
+    position: relative;
+  }
+
+  .team .member .member-info {
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .team .member .member-info h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .team .member .member-info span {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+  }
+
+  .social img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .team .member .social {
+    margin-top: 20px;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    text-align: center;
+  }
+
+
+  /**************************kontak*******************************/
+.contact{
+    padding: 50px 0;
+}
+
+.contact h2, h4{
+  text-align: center;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.contact hr{
+  border-color: #FFBC00;
+  width: 250px;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+
+  .contact .info i {
+    font-size: 20px;
+    color: #ef6603;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #ffecde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact .info h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2a2c39;
+  }
+
+  .contact .info p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555974;
+  }
+
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #ef6603;
+    color: #fff;
+  }
+
+  .contact .php-email-form {
+    width: 100%;
+    background: #fff;
+  }
+
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+
+  .contact .php-email-form input {
+    height: 44px;
+  }
+
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+
+  .contact .php-email-form button[type="submit"] {
+    background:#FFBC00;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .contact .php-email-form button[type="submit"]:hover {
+    background: #fc8129;
+  }
+
+
+
+
+/*********************Footer******************/
+.footer {
+    margin-top:  50px;
+    background: #222;
+    border-top: 4px solid #b78c33;
+}
+
+.footer h2{
+    font-size: 25px;
+}
+
+.footer .name {
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center;
+}
+
+.footer .name p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px;
+}
+
+.footer .social-media {
+    margin-top: 15px;
+}
+
+.footer .social-media ul li a {
+    margin-top: 15px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33;
+}
+
+
+.footer .copyright {
+    margin-top: 15px;
+    background: #111;
+    padding: 7px 0;
+    color: #999;
+}
+
+.footer .copyright p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**********************************************************************Desktop Version*****************************************************************/
+@media (min-width: 992px) {
+
+/**********************************************************************Navbar*****************************************************************/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-top: 4px solid black;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    color: white !important;
+}
+
+.nav-link:hover:after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #FFD203;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/**********************************************************************Slider*****************************************************************/
+
+.carousel-item{
+    padding: unset;
+    height: 830px;
+}
+
+.carousel-item .display-4{
+    margin-top: -500px;
+}
+
+.jumbo{
+    height: 600px;
+    margin-top: unset;
+}
+
+.jumbo img{
+    width: 100%;
+    height: 600px;
+}
+
+.jumboo{
+    margin-top: unset;
+    height: unset;
+}
+
+
+/**********************************************************************Tentang Perusahaan*****************************************************************/
+
+.kami h2{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.tentang{
+    margin-top: 80px;
+}
+
+.tentang p{
+    font-size: 18px;
+    font-weight: 200px;
+    margin-top: 20px;
+}
+
+.aku{
+    margin-top: 100px;
+}
+
+.tentang h5{
+    text-align: left;
+}
+
+/**********************************************************************New Produk*****************************************************************/
+.new{
+    margin-top: 120px;
+    background: #FFD203;
+    height: 500px;
+}
+
+.newa{
+    margin-top: 90px;
+    background: #FFD203;
+    height: 500px;
+}
+
+.tea h2{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.newproduk h2{
+    font-size: 80px;
+}
+
+.newproduk p{
+    font-size: 18px;
+}
+
+
+
+/**********************************************************************Produk*****************************************************************/
+.aku p{
+    text-align: right;
+}
+
+.aku h5{
+    text-align: right;
+}
+
+.tabel{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.table{
+    margin-top: 50px;
+}
+
+/**********************************************************************Quotes*****************************************************************/
+
+.review img{
+border-radius: 150px;
+size: unset;
+}
+
+.review h5{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.review p{
+    text-align: center;
+    columns: #2a2a2a;
+}
+
+.review{
+    margin-right: 15px;
+}
+
+.gam{
+    margin-right: 15px;
+}
+
+
+/**********************************************************************Sejarah*****************************************************************/
+.galeri{
+    padding-top: 30px;
+  }
+
+
+
+/**********************************************************************footer*****************************************************************/
+
+.footer h2{
+    font-size: 30px;
+}
+
+
+
+
+
+}

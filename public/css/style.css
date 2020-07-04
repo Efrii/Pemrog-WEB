@@ -1,0 +1,1021 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+/*********************Navbar******************/
+.navbar{
+    position: relative;
+    background-color: #303030;
+}
+
+
+/*********************Slider******************/
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item .display-4{
+    margin-top: -300px;
+}
+
+.carousel-caption h1{
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p{
+    font-size: 25px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption span{
+    font-weight: bold;
+}
+
+.carousel-item hr{
+    border-color: #FFBC00;
+    width: 70px;
+    border-width: 3px;
+}
+
+.carousel-item .btn{
+    color: white;
+    background-color: #FFBC00;
+    padding-top:10px ;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+/*********************Tentang Perusahaan******************/
+
+.tentang{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.tentang h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.tentang p{
+    font-size: 13px;
+    font-weight: 200px;
+    margin-top: 20px;
+}
+
+/**************************Sejarah*******************************/
+.about{
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about .content .btn{
+    color: white;
+    background-color: #FFBC00;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.galeri{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.title{
+margin-bottom: 30px;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+/**************************Tim Kelompok*******************************/
+.team {
+    background: #fff;
+    padding: 100px 0;
+  }
+
+  .team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .team .member .member-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+  }
+
+  .team .member .social a {
+    transition: color 0.3s;
+    color: #2a2c39;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: rgba(239, 102, 3, 0.8);
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+  }
+
+  .team .member .social a:hover {
+    background: #fc8129;
+  }
+
+  .team .member .social i {
+    font-size: 18px;
+  }
+
+  .team .member .member-info {
+    padding: 25px 15px;
+  }
+
+  .team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #2a2c39;
+  }
+
+  .team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+  }
+
+  .team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+  }
+
+  .team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+  }
+
+/**************************Produk*******************************/
+.produk{
+    padding-top: 100px;
+}
+
+/**************************kontak*******************************/
+.contact{
+    padding-top: 150px;
+}
+
+/*********************Footer******************/
+.footer{
+    margin-top: 100px;
+    background-color: wheat;
+}
+
+.footer p{
+margin-top: 20px;
+color: black;
+font-size: 15px;
+text-align: center;
+}
+
+/**********************************************************************Desktop Version*****************************************************************/
+@media (min-width: 992px) {
+
+    .navbar{
+        position: fixed;
+        z-index: 1;
+        background-color: unset;
+        z-index: 20;
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 15px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        color: white !important;
+    }
+
+    .nav-link:hover:after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid white;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
+/*********************Slider******************/
+    .carousel-item{
+        height: 750px;
+    }
+
+/*********************Tentang Perusahaan******************/
+.tentang{
+    text-align: left;
+}
+
+.tentang p{
+    font-size: 15px;
+    font-weight: 200px;
+    margin-top: 20px;
+}
+
+/**************************Sejarah*******************************/
+.about{
+    padding-top: 150px;
+}
+
+
+/***********************LOGIN**************************/
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.login-form h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.login-form input[type="password"],
+.login-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+}
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #024550;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+/*******************/
+
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+  border: 2px solid #007bff;
+}
+
+.btn[disabled="disabled"]{
+  opacity: 0.4;
+  cursor: not-allowed !important;
+}
+
+.muncul{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 992px){
+    .hilang{
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 992px){
+    .muncul{
+    visibility: hidden;
+  }
+    .col-lg-8{
+      bottom: 50px;
+    }
+}
+
+.login-page{
+    margin: 0;
+    padding: 0;
+    background-image: url("/asset/slide6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feddb h1{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.tbl-bungkus{
+  background-color: #fff;
+  box-shadow: 10px 10px 8px #888888;
+  padding: 10px;
+}
+
+.navbar1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+/*********************Navbar******************/
+.navbar{
+    background-color: #303030;
+}
+
+/*********************Slider******************/
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item .display-4{
+    margin-top: -400px;
+}
+
+.carousel-caption h1{
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p{
+    font-size: 25px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption span{
+    font-weight: bold;
+}
+
+.carousel-item hr{
+    border-color: #FFBC00;
+    width: 70px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.carousel-item .btn{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+/*********************Index Html******************/
+
+.kami h2{
+text-transform: uppercase;
+text-align: center;
+}
+
+.kami hr{
+  border-color: #FFBC00;
+  width: 100px;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+.tentang h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.tentang p{
+    font-size: 15px;
+    font-weight: 200px;
+    margin-top: 20px;
+}
+
+
+/**************************About Html*******************************/
+.title{
+    margin-bottom: 30px;
+    }
+
+.about{
+    padding-top: 120px;
+}
+
+.about h2{
+text-transform: uppercase;
+text-align: center;
+}
+
+.about hr{
+  border-color: #FFBC00;
+  width: 150px;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+.about p{
+    text-align: center;
+}
+
+.about .content{
+  padding-top: 30px;
+}
+
+.about .content p{
+  margin-top: 30px;
+  text-align: left;
+}
+
+.about .content .btn{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.galeri{
+  padding-top: 80px;
+}
+
+.galeri hr{
+  border-color: #FFBC00;
+  border-width: 5px;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+
+.gallery {
+    column-count: 3;
+    column-width: 33%; }
+
+.gallery .pics {
+    transition: all 350ms ease; }
+
+.gallery .animation {
+    transform: scale(1); }
+
+
+/**************************Team.html*******************************/
+.team {
+    padding-top: 120px;
+  }
+
+  .team h2{
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .team p{
+    text-align: center;
+  }
+
+ .anggota{
+   padding-top: 30px;
+ }
+
+  .team hr{
+    border-color: #FFBC00;
+    width: 150px;
+    border-width: 5px;
+    border-radius: 5px;
+  }
+
+  .team .member {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .team .member .member-img {
+    position: relative;
+  }
+
+  .team .member .member-info {
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .team .member .member-info h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .team .member .member-info span {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+  }
+
+/**************************social*******************************/
+
+  .social img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .team .member .social {
+    margin-top: 20px;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    text-align: center;
+  }
+
+
+/**************************Produk*******************************/
+.produk{
+    padding-top: 120px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.kopi{
+  margin-top: 100px;
+}
+/**************************kontak*******************************/
+.contact{
+    padding: 120px 0;
+}
+
+.contact h2, h4{
+  text-align: center;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.contact hr{
+  border-color: #FFBC00;
+  width: 250px;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+
+  .contact .info i {
+    font-size: 20px;
+    color: #ef6603;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #ffecde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact .info h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2a2c39;
+  }
+
+  .contact .info p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555974;
+  }
+
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #ef6603;
+    color: #fff;
+  }
+
+  .contact .php-email-form {
+    width: 100%;
+    background: #fff;
+  }
+
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+
+  .contact .php-email-form input {
+    height: 44px;
+  }
+
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+
+  .contact .php-email-form button[type="submit"] {
+    background:#FFBC00;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .contact .php-email-form button[type="submit"]:hover {
+    background: #fc8129;
+  }
+
+/*********************Footer******************/
+.footer{
+    margin-top: 100px;
+    background-color: black;
+}
+
+.footer h3{
+    margin-top: 30px;
+    color: white;
+}
+
+.footer p{
+margin-top: 20px;
+color: white;
+font-size: 15px;
+text-align: center;
+}
+
+/**********************************************************************Desktop Version*****************************************************************/
+@media (min-width: 992px) {
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    color: white !important;
+}
+
+.nav-link:hover:after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/*********************Slider******************/
+.carousel-item{
+    height: 750px;
+}
+
+/*********************Tentang Perusahaan******************/
+
+.tentang p{
+    font-size: 18px;
+    font-weight: 200px;
+    margin-top: 20px;
+}
+
+
+
+/*********************About******************/
+
+.about .content p{
+margin-top: 20px;
+text-align: left;
+}
+
+.kami{
+  padding-top: 120px;
+}
+
+.galeri{
+  padding-top: 100px;
+}
+
+/*********************Team******************/
+
+
+/*********************Contact******************/
+.contact h2,h4{
+  text-align: left;
+}
+
+
+.contact p{
+  text-align: left;
+}
+
+.contact hr{
+  margin-left: 0px;
+}
+
+
+/*********************BOX***********************/
+.box{
+background-color:#fff;
+overflow: hidden;
+height:520px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius:5px;
+-webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.3);
+}
+.box img{
+  width:100%;
+  height:320px;
+}
+.box h3{
+  padding:15px;
+  margin:0px;
+}
+.box p{
+    overflow:hidden;
+    height:100px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:0px;
+}
+
+.desc{
+  height:150px;
+  border-bottom:1px solid #ddd;
+}
+.likes{
+  float:left;
+  padding:15px;
+  margin:0px;
+}
+.prize{
+  float:right;
+  padding:15px;
+  margin:0px;
+}
+
+}
+
+.modalku{
+  margin-top: 60px;
+  margin-bottom: -60px;
+}
+
+.back{
+  margin-top: 20px;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.new{
+    margin-top: 120px;
+    background: #FFD203;
+    height: 500px;
+}
+
+.newa{
+    background: #FFD203;
+    height: 500px;
+}
+
+.tea h2{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+@media (max-width: 502px){
+  .newproduk h2{
+      font-size: 50px;
+  }
+}
+
+@media (min-width: 502px){
+  .newproduk h2{
+      font-size: 80px;
+  }
+}
+
+.newproduk p{
+    font-size: 18px;
+}
+
+/**********************************************************************Quotes*****************************************************************/
+
+.review img{
+border-radius: 150px;
+size: unset;
+}
+
+.review h5{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.review p{
+    text-align: center;
+    columns: #2a2a2a;
+}
+
+.review{
+    margin-right: 15px;
+}
+
+.gam{
+    margin-right: 15px;
+}
+
+/*********************Footer******************/
+.footer {
+    margin-top:  50px;
+    background: #222;
+    border-top: 4px solid #b78c33;
+}
+
+.footer h2{
+    font-size: 25px;
+}
+
+.footer .name {
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1170px;
+    text-align: center;
+}
+
+.footer .name p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px;
+}
+
+.footer .social-media {
+    margin-top: 15px;
+}
+
+.footer .social-media ul li a {
+    margin-top: 15px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33;
+}
+
+
+.footer .copyright {
+    margin-top: 15px;
+    background: #111;
+    padding: 7px 0;
+    color: #999;
+}
+
+.footer .copyright p {
+    margin: 0;
+    padding: 0;
+}
+
+.kuyet{
+  border-radius: 10px;
+  padding: 5px;
+}
