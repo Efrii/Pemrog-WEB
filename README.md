@@ -18,3 +18,10 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 
 ### ✨ <a href="http://starmindiy.mercedes1.host/">Demo</a>
 
+ ### 👤 Default Account for testing
+	
+**Admin Default Account**
+- http://localhost:8011/login
+- Username : efri
+- Password : efri
+
