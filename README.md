@@ -1,7 +1,7 @@
 <h1 align="center">Selamat datang di Starbucks! 👋</h1>
 
 <p align="center">
-  <img src="https://pixabay.com/images/id-1281880/" alt="Sublime's custom image"/>
+  <img src="https://unsplash.com/photos/aScuVWpmDcQ" alt="Sublime's custom image"/>
 </p>
 
 [![](https://img.shields.io/github/issues/Syauqizaidan/GameINA?style=flat-square)](https://img.shields.io/github/issues/Syauqizaidan/GameINA?style=flat-square) ![](https://img.shields.io/github/stars/Syauqizaidan/GameINA?style=flat-square)
@@ -13,7 +13,7 @@
 
 </p>
 
-# StarbukcDIY
+### 🎁 StarbukcDIY
 Web ini di bangun dengan express js, angular, dan menggunakan database Mysql untuk memenuhi tugas kuliah Pemrograman Web yang di buat dengan 3 orang Backend Developer dan 3 orang Frontend Developer
 
 ### ✨ <a href="http://starmindiy.mercedes1.host/">Demo</a>
