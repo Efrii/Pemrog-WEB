@@ -47,3 +47,11 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - XAMPP
 - Text Editor (VCode, Atom , Sublim dll)
 - Web Browser (Chrome, Firefox, Opera dll)
+
+### 💻 Install
+- Download Pemrog-WEB atau fork lalu clone di computer kalian
+- Upload file starbacks.sql ke XAMPP 
+- Jalankan Web Browser (Chrome, Opera, Firefox dll)
+- Buka http://localhost:8011
+- Oke selamat menikmati 
+- Masuk ke pengelolaan admin tinggal tambahkan /login 
