@@ -23,11 +23,15 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Admin login system
 - Upload promo ke halaman user by admin
 - Upload Menu ke halaman user by admin
-- Feedback untuk layanan starbucks oleh customer
-- Input daftar menu
-- Kelola feedback dari para customer
-- Input data user
-- 
+- Inpute Feedback dari halaman user oleh user
+- Kelola data admin
+- Kelola data team
+- Kelola data menu
+- Kelola data promo
+- Kelola data feedback
+- Menu Services
+- Menu Sejarah Starbuck
+- Menu kontak
 
 ### ✨ Demo
 - <a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
