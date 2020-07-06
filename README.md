@@ -44,3 +44,6 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Password : efri
 
 ### 🧐 Persyaratan yang di perlukan
+- XAMPP
+- Text Editor (VCode, Atom , Sublim dll)
+- Web Browser (Chrome, Firefox, Opera dll)
