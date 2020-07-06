@@ -51,6 +51,8 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 ### 💻 Install
 - Download Pemrog-WEB atau fork lalu clone di computer kalian
 - Upload file starbacks.sql ke XAMPP 
+- Rubah connection ke database di app.js
+	-asda
 - Jalankan Web Browser (Chrome, Opera, Firefox dll)
 - Buka http://localhost:8011
 - Oke selamat menikmati 
