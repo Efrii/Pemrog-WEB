@@ -19,6 +19,13 @@ Starbucks Corporation adalah sebuah perusahaan kopi dan jaringan kedai kopi glob
 ### 🤔 Tujuan 
 Web ini di bangun dengan express js, angular, dan menggunakan database Mysql untuk memenuhi tugas kuliah Pemrograman Web yang di buat dengan 3 orang Backend Developer dan 3 orang Frontend Developer
 
+### 🤨 Fitur apa saja yang tersedia ?
+- Admin login system
+- publisher promo by admin
+- Feedback untuk layanan starbucks
+- Input data user
+- 
+
 ### ✨ Demo
 - <a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
 
