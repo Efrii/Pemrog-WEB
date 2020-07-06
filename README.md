@@ -21,8 +21,11 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 
 ### 🤨 Fitur apa saja yang tersedia ?
 - Admin login system
-- publisher promo by admin
-- Feedback untuk layanan starbucks
+- Upload promo ke halaman user by admin
+- Upload Menu ke halaman user by admin
+- Feedback untuk layanan starbucks oleh customer
+- Input daftar menu
+- Kelola feedback dari para customer
 - Input data user
 - 
 
