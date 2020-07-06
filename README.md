@@ -52,7 +52,7 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Download Pemrog-WEB atau fork lalu clone di computer kalian
 - Upload file starbacks.sql ke XAMPP 
 - Rubah connection ke database di app.js
-	- default connection
+	**default connection**
 		- host : 'localhost',
     		- user : 'root',
    		- password : '',
