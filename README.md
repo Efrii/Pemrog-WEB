@@ -43,3 +43,4 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Username : efri
 - Password : efri
 
+### 🧐 Persyaratan yang di perlukan
