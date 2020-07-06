@@ -17,7 +17,7 @@
 Web ini di bangun dengan express js, angular, dan menggunakan database Mysql untuk memenuhi tugas kuliah Pemrograman Web yang di buat dengan 3 orang Backend Developer dan 3 orang Frontend Developer
 
 ### ✨ Demo
-<a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
+- <a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
 
  ### 👤 Default Account for testing
 	
