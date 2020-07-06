@@ -1,7 +1,7 @@
 <h1 align="center">Selamat datang di Starbucks! 👋</h1>
 
 <p align="center">
-  <img src="https://unsplash.com/photos/aScuVWpmDcQ" alt="Sublime's custom image"/>
+  <img src="public/asset/banner1.jpg" widht="100"/>
 </p>
 
 [![](https://img.shields.io/github/issues/Syauqizaidan/GameINA?style=flat-square)](https://img.shields.io/github/issues/Syauqizaidan/GameINA?style=flat-square) ![](https://img.shields.io/github/stars/Syauqizaidan/GameINA?style=flat-square)
