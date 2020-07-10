@@ -54,6 +54,7 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - <img alt="npm" src="https://img.shields.io/npm/v/ejs?color=red&label=Ejs">
 - <img alt="npm" src="https://img.shields.io/npm/v/body-parser?color=purple&label=Body-Parser">
 - <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Efrii/Pemrog-WEB?label=Javacript">
+- <img alt="npm" src="https://img.shields.io/badge/Angullar-10.0.1-orange">
 
 ### 💻 Install
 - Download Pemrog-WEB atau fork lalu clone di computer kalian
