@@ -15,7 +15,7 @@
 Starbucks Corporation adalah sebuah perusahaan kopi dan jaringan kedai kopi global asal Amerika Serikat yang berkantor pusat di Seattle, Washington. Starbucks adalah perusahaan kedai kopi terbesar di dunia,dengan 20.336 kedai di 61 negara dan **326 di Indonesia.** Starbucks menjual minuman panas dan dingin, biji kopi, salad, sandwich panas dan dingin, kue kering manis, camilan, dan barang-barang seperti gelas dan tumbler.
 
 ### 🤔 Tujuan 
-Web ini di bangun dengan express js, angular, dan menggunakan database Mysql untuk memenuhi tugas kuliah Pemrograman Web yang di buat dengan 3 orang Backend Developer dan 3 orang Frontend Developer
+Tujuan membuat web ini adalah untuk memenuhi tugas kuliah Pemrograman Web dengan membangun sebuah web yang berjalan di sisi client dan server 
 
 ### 🤨 Fitur apa saja yang tersedia ?
 - Admin login system
