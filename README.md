@@ -8,7 +8,7 @@
 <img align="center" src="https://forthebadge.com/images/badges/uses-html.svg"> 
 <img align="center" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg"> 
 <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg"> 
-<img align="center" src="https://forthebadge.com/images/badges/validated-html5.svg">
+<img align="center" src="https://forthebadge.com/images/badges/made-with-pug.svg">
 </p>
 
 ### 🎁 Apa itu StarbucksDIY
@@ -47,7 +47,13 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Web Browser (Chrome, Firefox, Opera dll)
 
 ### ⌨ Made With
-- bn
+- <img alt="npm" src="https://img.shields.io/npm/v/express?color=green&label=Express%20Js">
+- <img alt="npm" src="https://img.shields.io/npm/v/mysql?color=read&label=Mysql">
+- <img alt="npm" src="https://img.shields.io/npm/v/express-session?color=blue&label=Express-Session">
+- <img alt="npm" src="https://img.shields.io/npm/v/nodemon?color=blue&label=Nodemon">
+- <img alt="npm" src="https://img.shields.io/npm/v/ejs?color=red&label=Ejs">
+- <img alt="npm" src="https://img.shields.io/npm/v/body-parser?color=purple&label=Body-Parser">
+- <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Efrii/Pemrog-WEB?label=Javacript">
 
 ### 💻 Install
 - Download Pemrog-WEB atau fork lalu clone di computer kalian
