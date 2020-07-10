@@ -56,3 +56,24 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Buka http://localhost:8011
 - Oke selamat menikmati 
 - Masuk ke pengelolaan admin tinggal tambahkan /login 
+
+### 👨‍💼 Author
+- 👨‍💻 Teguh Efriyanto
+	- 💻 Backend Developer
+- 👨‍💻 Tatak Goresta P N
+	- 💻 Backend Developer
+- 👨‍💻 Ardiyanto Saputra
+	- 💻 Backend Developer
+- 👨‍💻 Dimas Pramana
+	- 🎨 Frontend Developer
+- 👨‍💻 Septa Najibul
+	- 🎨 Frontend Developer
+- 👨‍💻 Gilang Anugrah 
+	- 🎨 Frontend Developer
+
+## 💙 Thanks to
+- Stackoverflow 📖
+- Dicoding 📖
+- YukCoding 📖
+- Medium 📖
+- W3school 📖
