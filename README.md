@@ -5,8 +5,9 @@
 </p>
 
 <p align="center">
-	
-<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg"> 
+<img align="center" src="https://forthebadge.com/images/badges/uses-html.svg"> 
+<img align="center" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg"> 
+<img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg"> 
 <img align="center" src="https://forthebadge.com/images/badges/validated-html5.svg">
 </p>
 
@@ -33,8 +34,7 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 ### ✨ Demo
 - <a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
 
- ### 👤 Default Account for testing
-	
+### 👤 Default Account for testing	
 **Admin Default Account**
 - http://localhost:8011/login
 - Username : efri
@@ -45,6 +45,9 @@ Web ini di bangun dengan express js, angular, dan menggunakan database Mysql unt
 - Node.js
 - Text Editor (VCode, Atom , Sublim dll)
 - Web Browser (Chrome, Firefox, Opera dll)
+
+### ⌨ Made With
+- bn
 
 ### 💻 Install
 - Download Pemrog-WEB atau fork lalu clone di computer kalian
