@@ -64,6 +64,7 @@ Tujuan membuat web ini adalah untuk memenuhi tugas kuliah Pemrograman Web dengan
 - Download repositories Pemrog-WEB atau fork lalu clone di computer kalian
 - Buka dengan text editor yang kalian suka
 - Jalankan XAMPP untuk Apache dan Mysqlnya
+- Jika belum punya silahkan <a href="https://www.apachefriends.org/download.html">Download</a>
 - Kemudian Buat database dengan nama starbucks
 - Setelah itu import file starbucks.sql ke database starbucks
 - Sesuaiakan connection di app.js dengan database kalian jika user dan password berbeda
