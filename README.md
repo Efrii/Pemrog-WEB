@@ -1,4 +1,4 @@
-<h1 align="center">Selamat datang di Starbucks! 👋</h1>
+<h1 align="center">🥤 Selamat datang di Starbucks 🥤</h1>
 
 <p align="center">
   <img src="public/asset/banner1.jpg" widht="100"/>
