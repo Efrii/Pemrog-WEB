@@ -32,7 +32,7 @@ Tujuan membuat web ini adalah untuk memenuhi tugas kuliah Pemrograman Web dengan
 - Menu kontak
 
 ### ✨ Demo
-  **LINK TERKADANG DOWN**
+  **LINK TERKADANG DOWN 😞**
 - <a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
 
 ### 👤 Default Account for testing	
