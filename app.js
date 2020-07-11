@@ -42,12 +42,11 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/kontak', (req, res) => {
-    res.status(200);
     res.render('kontak');
 });
 
 app.get('/login', (req, res) => {
-    res.status(200).render('login');
+    res.render('login');
 });
 
 app.get('/logout', (req, res) => {
@@ -84,9 +83,7 @@ app.post('/auth', (request, response) => {
             if (results.length > 0) {
                 request.session.loggedin = true;
                 request.session.nama = username_;
-                response.render('dashboard', {
-									results : username_
-								});
+                response.render('dashboard');
             } else {
                 response.send('<h1>password dan username salah</h1>');
             }
