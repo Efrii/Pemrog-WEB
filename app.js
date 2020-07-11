@@ -37,7 +37,6 @@ app.use(function (req, res, next) {
 });
 
 app.get('/about', (req, res) => {
-    res.status(200);
     res.render('about');
 });
 

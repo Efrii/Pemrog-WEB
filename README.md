@@ -1,4 +1,4 @@
-<h1 align="center">Selamat datang di Starbucks! 👋</h1>
+<h1 align="center">🥤 Selamat datang di Starbucks 🥤</h1>
 
 <p align="center">
   <img src="public/asset/banner1.jpg" widht="100"/>
@@ -32,6 +32,7 @@ Tujuan membuat web ini adalah untuk memenuhi tugas kuliah Pemrograman Web dengan
 - Menu kontak
 
 ### ✨ Demo
+  **LINK TERKADANG DOWN 😞**
 - <a href="http://starmindiy.mercedes1.host/">Klik</a> me untuk demo 
 
 ### 👤 Default Account for testing	
@@ -59,12 +60,18 @@ Tujuan membuat web ini adalah untuk memenuhi tugas kuliah Pemrograman Web dengan
 - <img alt="npm" src="https://img.shields.io/badge/Materialize-1.0.0-yellowgreen">
 
 ### 💻 Install
-- Download Pemrog-WEB atau fork lalu clone di computer kalian
-- Upload file starbacks.sql ke XAMPP 
-- Sesuaiakan connection di app.js dengan database kalian 
-- Jalankan Web Browser (Chrome, Opera, Firefox dll)
-- Buka http://localhost:8011
-- Oke selamat menikmati 
+- install Node.js jika belum ada silahkan <a href="https://nodejs.org/en/">Download</a>
+- Download repositories Pemrog-WEB atau fork lalu clone di computer kalian
+- Buka dengan text editor yang kalian suka
+- Jalankan XAMPP untuk Apache dan Mysqlnya
+- Jika belum punya silahkan <a href="https://www.apachefriends.org/download.html">Download</a>
+- Kemudian Buat database dengan nama starbucks
+- Setelah itu import file starbucks.sql ke database starbucks
+- Sesuaiakan connection di app.js dengan database kalian jika user dan password berbeda
+- kemudaian jalankan Command Line CMD dan arahkan ke folder hasil downlad atau clone
+- Dan ketikkan "nodemon" untuk menjalankan
+- kemudian Buka browser ketikkan http://localhost:8011 
+- jika tidak ada error maka akan masuk ke halaman utama
 - Masuk ke pengelolaan admin tinggal tambahkan /login 
 
 ### 👨‍💼 Author
