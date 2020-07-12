@@ -69,7 +69,8 @@ Tujuan membuat web ini adalah untuk memenuhi tugas kuliah Pemrograman Web dengan
 - Setelah itu import file starbucks.sql ke database starbucks
 - Sesuaiakan connection di app.js dengan database kalian jika user dan password berbeda
 - kemudaian jalankan Command Line CMD dan arahkan ke folder hasil download atau clone
-- Dan ketikkan "nodemon" untuk menjalankan
+- kemudian lakukan "npm install" untuk menginstal depedency yang ada di packeg json
+- Dan ketikkan "nodemon" / "node app.js" untuk menjalankan
 - kemudian Buka browser ketikkan http://localhost:8011 
 - jika tidak ada error maka akan masuk ke halaman utama
 - Masuk ke pengelolaan admin tinggal tambahkan /login 
