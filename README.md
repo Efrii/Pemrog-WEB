@@ -1,7 +1,7 @@
 <h1 align="center">🥤 Selamat datang di Starbucks 🥤</h1>
 
 <p align="center">
-  <img src="public/asset/git-01.png" widht="100"/>
+  <img src="public/asset/git-01.PNG" widht="100"/>
 </p>
 
 <p align="center">
